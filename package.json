@@ -1,0 +1,42 @@
+{
+  "name": "@acp0.2/loading-spinner-carolyn",
+  "version": "1.0.0",
+  "description": "creating spinner component",
+  "scripts": {
+    "build": "tsup",
+    "release": "npm run build && npx changeset && npx changeset version && npx changeset publish",
+    "rollup": "rollup -c --bundleConfigAsCjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayechanpaing31/spinner.git"
+  },
+  "author": "Aye Chan Paing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ayechanpaing31/spinner/issues"
+  },
+  "homepage": "https://github.com/Ayechanpaing31/spinner#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.2.78",
+    "react": "^18.2.0",
+    "rollup": "^4.14.2",
+    "rollup-plugin-dts": "^6.1.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "clsx": "^2.1.0",
+    "lucide-react": "^0.368.0",
+    "tailwind-merge": "^2.2.2",
+    "tslib": "^2.6.2"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.mjs",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
