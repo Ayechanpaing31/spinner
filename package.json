@@ -1,6 +1,6 @@
 {
   "name": "@acp0.2/loading-spinner-carolyn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "creating spinner component",
   "scripts": {
     "build": "tsup",
@@ -21,22 +21,28 @@
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-typescript": "^11.1.6",
+    "@swc/core": "^1.4.13",
     "@types/react": "^18.2.78",
     "react": "^18.2.0",
     "rollup": "^4.14.2",
     "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-postcss": "^4.0.2",
     "typescript": "^5.4.5"
   },
   "dependencies": {
     "clsx": "^2.1.0",
     "lucide-react": "^0.368.0",
     "tailwind-merge": "^2.2.2",
-    "tslib": "^2.6.2"
+    "tslib": "^2.6.2",
+    "tsup": "^8.0.2"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.mjs",
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  }
 }
