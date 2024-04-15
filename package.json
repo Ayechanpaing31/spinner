@@ -1,6 +1,6 @@
 {
   "name": "@acp0.2/loading-spinner-carolyn",
-  "version": "1.0.6",
+  "version": "1.0.12",
   "description": "creating spinner component",
   "scripts": {
     "build": "tsup",

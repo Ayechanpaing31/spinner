@@ -7,9 +7,13 @@ interface SpinnerProps extends LucideProps {}
 
 const Spinner: FC<SpinnerProps> = ({ className, ...props }) => {
   return (
-    <div className={cn('mr-2 h-4 w-4 animate-spin', className)}>
+    
+    <div className={cn('mr-2 h-12 w-12 relative', className)}>
+    <div className={cn('absolute inset-0 flex justify-center items-center animate-spin')}>
       <Loader2 {...props} />
     </div>
+  </div>
+   
   )
 }
 
