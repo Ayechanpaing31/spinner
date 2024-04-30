@@ -1,6 +1,6 @@
 {
   "name": "@acp0.2/loading-spinner-carolyn",
-  "version": "1.0.13",
+  "version": "1.0.37",
   "description": "creating spinner component",
   "scripts": {
     "build": "tsup",
@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "@changesets/cli": "^2.27.1",
+    "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "lucide-react": "^0.368.0",
     "tailwind-merge": "^2.2.2"
